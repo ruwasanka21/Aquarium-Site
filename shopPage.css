@@ -1,0 +1,35 @@
+/*Shop page*/
+/*hero page*/
+
+#shop-header
+
+{
+   background-image:url(Images/Blog/3.jpg);
+   background-size: cover;
+    height: 60vh;
+    color: rgb(255, 255, 255);
+    background-position: top 45% right 0%;
+    background-size: cover;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/*Page no*/
+#pageNo
+{
+    text-align: center;
+}
+
+#pageNo a
+{
+    text-decoration: none;
+    background-color: #ef0e0e;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: rgb(61, 74, 160);
+}
+
+

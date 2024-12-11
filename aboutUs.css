@@ -1,0 +1,191 @@
+#header
+{
+    border-color:rgb(199, 195, 195) ;
+    width: auto;
+    height: 2cm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: white;
+    box-shadow: 0 5 15 rgba(red, green, blue, alpha);
+    z-index: 999;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+}
+ 
+span .brand-text {
+    font-size: 50px; /* Adjust font size of the text */
+    text-decoration: none;
+    padding:0 20;
+    text-align: left;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+/*Nevigation bar start*/
+#nevi
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nevi li 
+{
+    padding: 0 20px;
+    list-style: none;
+}
+
+#nevi li a
+{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 400;
+    color: black;
+    transition:0.5 ease ;
+}
+
+#nevi li a:hover,
+#nevi li a.active
+{
+    color: rgb(23, 131, 176);
+}
+
+/*Nevigation bar end*/
+
+/*About US*/
+.aboutUs {
+    text-align: center;
+    
+}
+.head 
+{
+    text-align: center;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+label
+{
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+label h4
+{
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+
+.img-container {
+    flex-basis: 45%;
+}
+
+.img-container img
+{
+    border-radius: 50%;
+}
+.Contact-details
+{
+    margin-left: 10px;
+    text-align:left ;
+}
+
+
+.details {
+    flex-basis: 55%;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 3px solid rgb(63, 65, 64);
+    padding: 12px 15px;
+    border-radius: 20px;
+    
+}
+form input
+{
+    width: 80%;
+    border-radius: 15px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(148, 158, 156);
+    outline: none;
+}
+span
+{
+    margin: 5px;
+    font-size: large;
+}
+button
+{
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 12px 15px;
+    background-color:  dodgerblue;
+}
+button:hover
+ {
+    background-color: royalblue;
+}
+button:focus
+{
+    border-bottom-color:dodgerblue;
+}
+
+
+/*Footer section*/
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.footer-section .col {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+
+.footer-section .follow {
+    flex: 1;
+    margin-right: 20px; 
+
+}
+
+
+.footer-section .icon i {
+    margin-right: 10px; 
+    cursor: pointer;
+    color: #050505;
+}
+
+
+.footer-section .install {
+    flex: auto;
+    margin-right: 20px;
+    cursor: pointer; 
+}
+
+
+footer i:hover,
+footer a:hover
+{
+    color: #007bff;
+}
